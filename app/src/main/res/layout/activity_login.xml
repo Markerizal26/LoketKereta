@@ -12,13 +12,13 @@
         android:layout_height="match_parent"
         android:background="@color/primary"
         android:alpha="0.6"/>
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="32dp">
+        android:padding="48dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -33,9 +33,9 @@
             android:fontFamily="sans-serif-medium"
             android:textSize="32sp"
             android:textColor="@color/white"/>
-        
+
     </LinearLayout>
-    
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:padding="28dp"
             android:orientation="vertical">
-            
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -61,26 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/text_secondary"
-                android:text="Langkah Pertama Menuju Petualangan Baru Anda"/>
-
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Alamat Email"
-                android:textColor="@color/text_primary"
-                android:alpha="0.7"
-                android:textStyle="bold"/>
-            
-            <EditText
-                android:id="@+id/emailInput"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:hint="Masukkan Alamat Email Anda"/>
+                android:text="Langkah Selanjutnya Menuju Petualangan Baru Anda"/>
 
             <View
                 android:layout_width="wrap_content"
@@ -99,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:hint="Kreasi Nama Pengguna Anda"/>
+                android:hint="Masukkan Nama Pengguna Anda"/>
 
             <View
                 android:layout_width="wrap_content"
@@ -118,39 +99,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:hint="Bentuk Password Anda"/>
+                android:hint="Masukkan Password Anda"/>
 
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tanggal Lahir"
-                android:textColor="@color/text_primary"
-                android:alpha="0.7"
-                android:textStyle="bold"/>
-
-            <EditText
-                android:id="@+id/birthInput"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="date"
-                android:hint="Masukkan Tanggal Lahir Anda"
-                android:onClick="showDatePickerDialog"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-
-                <CheckBox
-                    android:id="@+id/rememberCheckBox"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Ingat Saya"
-                    android:layout_centerVertical="true"
-                    android:alpha="0.7"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -163,10 +118,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="10dp"/>
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnToLogin"
+                android:id="@+id/btnToDashboard"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="Mulai Petualangan"
+                android:text="Lanjutkan Petualangan"
                 app:cornerRadius="32dp"
                 android:backgroundTint="@color/primary"/>
         </LinearLayout>
