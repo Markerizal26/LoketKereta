@@ -92,5 +92,3 @@ class RegisterActivity : AppCompatActivity() {
         datePickerDialog.show()
     }
 }
-
-
